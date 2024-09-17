@@ -22,6 +22,8 @@ public class Client {
     public Client() {
         builder = new PackageBuilder();
         director = new Director(builder);
+        internetConnection = null;
+        webServerFactory = null;
     }
 
     public Package getPackage(int type) {
