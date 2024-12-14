@@ -6,4 +6,7 @@ public class Wifi implements Internet {
         System.out.println("Wifi Connection has been added to the device");
     }
     
+    public String getInternetConnection() {
+        return "Wifi Connection";
+    }
 }

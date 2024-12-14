@@ -6,4 +6,7 @@ public class NodeJs implements WebServer {
         System.out.println("NodeJs added to the server");
     }
     
+    public String getWebServer() {
+        return "NodeJs server";
+    }
 }

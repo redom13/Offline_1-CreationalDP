@@ -6,4 +6,7 @@ public class Ruby implements WebServer {
         System.out.println("Ruby server added");
     }
     
+    public String getWebServer() {
+        return "Ruby server";
+    }
 }

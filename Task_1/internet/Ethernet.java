@@ -6,4 +6,7 @@ public class Ethernet implements Internet {
         System.out.println("Ethernet Connection has been added to the device");
     }
     
+    public String getInternetConnection() {
+        return "Ethernet Connection";
+    }
 }

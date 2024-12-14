@@ -4,5 +4,5 @@ package Task_1.internet;
 
 public interface Internet {
     public void addInternetConnection();
-    
+    public String getInternetConnection();
 } 

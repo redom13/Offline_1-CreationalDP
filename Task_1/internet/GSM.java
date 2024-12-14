@@ -6,4 +6,7 @@ public class GSM implements Internet {
         System.out.println("GSM Internet Connection has been added to the device");
     }
     
+    public String getInternetConnection() {
+        return "GSM Internet Connection";
+    }
 }
